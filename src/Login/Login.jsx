@@ -9,7 +9,7 @@ const Login = () => {
           email: email
         };
         const config = {
-          url: "http://localhost:3000/signup",
+          url: "https://json-server-mocker-kittu.herokuapp.com/signup",
           method: "POST",
           data: payload
         }

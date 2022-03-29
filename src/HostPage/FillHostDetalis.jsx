@@ -29,7 +29,7 @@ const PostData = (form) => {
        "Tax" : 154
    }
    const config = {
-       url : "http://localhost:3000/Available",
+       url : "https://json-server-mocker-kittu.herokuapp.com/Available",
        method : "Post",
        data : payload
    }
